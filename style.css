@@ -1,0 +1,36 @@
+#google-logo {
+    position: relative;
+    border-top: 50px solid #EA4335;
+    border-right: 50px solid #4285F4;
+    border-bottom: 50px solid #34A853;
+    border-left: 50px solid #FBBC05;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 10vh auto 0;
+    }
+    #google-logo::before {
+        content: "";
+        z-index: 100;
+        position: absolute;
+        top: 50%;
+        right: -42.5px;
+        transform: translateY(-50%);
+        width: 122.5px;
+        height:50px;
+        background: #4285F4;
+      }  
+    
+     #google-logo::after {
+        content: "";
+        z-index: 105;
+        position: absolute;
+        border-top:46px solid transparent;
+        border-right:105px solid #fff;
+       top: -27px;
+        right: -47px;
+        width: 90px;
+        height: 31px;
+    }
